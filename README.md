@@ -2,9 +2,6 @@
 
 [Part of John Smilga's JS Tutorial](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/){target="_blank"}
 
-<a href="www.udemy.com/course/javascript-tutorial-for-beginners-w/" target="_blank">Part of John Smilga's JS Tutorial</a>
-<a href="www.squarespace.com" target="_blank">Squarespace</a>
-
 #### You can see all projects in action here
 
 [Projects](https://www.vanillajavascriptprojects.com/)

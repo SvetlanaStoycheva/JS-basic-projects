@@ -1,6 +1,6 @@
 ## Vanilla JS basic projects
 
-#### Part of John Smilga's JS Tutorial
+[Part of John Smilga's JS Tutorial](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/)
 
 #### You can see all projects in action here
 
@@ -32,35 +32,36 @@
 
 4. Navbar
 
-- a
+- Navbar toggle functionality
 <p align-items: center>
-    <img src='ReadMe-IMAGES/4.png' width='200'>
-</p>
+      <img src='ReadMe-IMAGES/4.png' width='200'>
+  </p>
 
 5. Sidebar
 
-- a
+- Sidebar toggle functionality
 <p align-items: center>
     <img src='ReadMe-IMAGES/5.png' width='200'>
 </p>
 
 6. Modal
 
-- a
+- We have a background image and in the center there is a banner. When we click on it, it opens up a modal with an overlay. The modal has a close button.
 <p align-items: center>
-    <img src='ReadMe-IMAGES/6.png' width='200'>
-</p>
+      <img src='ReadMe-IMAGES/6.png' width='200'>
+  </p>
 
 7. Questions
 
-- a
+- open/close answers functionality
 <p align-items: center>
-    <img src='ReadMe-IMAGES/7.png' width='200'>
-</p>
+      <img src='ReadMe-IMAGES/7.png' width='200'>
+  </p>
 
 8. Menu
 
-- a
+- Display items dynamically, once the page loads
+- Setting up filtering options
 <p align-items: center>
     <img src='ReadMe-IMAGES/8.png' width='200'>
 </p>

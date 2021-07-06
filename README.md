@@ -1,6 +1,6 @@
 ## Vanilla JS basic projects
 
-[Part of John Smilga's JS Tutorial](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/){:target="_blank"}
+[Part of John Smilga's JS Tutorial](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/){target="_blank"}
 
 <a href="https://www.udemy.com/course/javascript-tutorial-for-beginners-w/" target="_blank">Part of John Smilga's JS Tutorial</a>
 

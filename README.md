@@ -53,7 +53,7 @@
 
 7. Questions
 
-- open/close answers functionality
+- Open/close answers functionality
 <p align-items: center>
       <img src='ReadMe-IMAGES/7.png' width='200'>
   </p>
@@ -68,21 +68,26 @@
 
 9. Video
 
-- a
+- Adding video in the html with a overlay and a play/pouse slide button
+- Adding a preloader
 <p align-items: center>
     <img src='ReadMe-IMAGES/9.png' width='200'>
 </p>
 
 10. Scroll
 
-- a
+- Calculate the hight of the sidebar links dynamically
+- Fixed navbar. Working with scroll event
+- Set up smooth scroll
+- Adding 'back to the top' button
+- Dynamic setup for small and big screen
 <p align-items: center>
     <img src='ReadMe-IMAGES/10.png' width='200'>
 </p>
 
 11. Tabs
 
-- a
+- It is an about page with tabs section
 <p align-items: center>
     <img src='ReadMe-IMAGES/11.png' width='200'>
 </p>

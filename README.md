@@ -94,21 +94,27 @@
 
 12. Countdown timer
 
-- a
+- It is a giveaway page
+- We set up the date, when the deal ends. Working with date object in JS.
+- There is a countdown timer which counts correctly the remaining time
 <p align-items: center>
     <img src='ReadMe-IMAGES/12.png' width='200'>
 </p>
 
 13. Lorem ipsum
 
-- a
+- Generate needed number paragraphs with Lorem ipsum text (placeholder text). Working with form and number input.
+- [inspiration for the project](https://hipsum.co)
+
 <p align-items: center>
     <img src='ReadMe-IMAGES/13.png' width='200'>
 </p>
 
 14. Grocery bud
 
-- a
+- it is a to do list form, where we can add, remove and edit items.
+- succes and alarm alerts
+- use locale storage
 <p align-items: center>
     <img src='ReadMe-IMAGES/14.png' width='200'>
 </p>

@@ -114,7 +114,7 @@
 
 - it is a to do list form, where we can add, remove and edit items.
 - succes and alarm alerts
-- use locale storage
+- using locale storage browser Api
 <p align-items: center>
     <img src='ReadMe-IMAGES/14.png' width='200'>
 </p>

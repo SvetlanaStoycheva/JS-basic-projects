@@ -121,7 +121,7 @@
 
 15. Slider
 
-- a
+- Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
 <p align-items: center>
-    <img src='ReadMe-IMAGES/15.png' width='200'>
-</p>
+      <img src='ReadMe-IMAGES/15.png' width='200'>
+  </p>

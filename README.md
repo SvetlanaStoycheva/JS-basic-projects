@@ -122,6 +122,27 @@
 15. Slider
 
 - Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
-<p align-items: center>
+    <p align-items: center>
       <img src='ReadMe-IMAGES/15.png' width='200'>
+  </p>
+
+  16. ES6 - Slider
+
+- Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
+    <p align-items: center>
+      <img src='ReadMe-IMAGES/16.png' width='200'>
+  </p>
+
+  17. Stripe-submenus
+
+- Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
+    <p align-items: center>
+      <img src='ReadMe-IMAGES/17.png' width='200'>
+  </p>
+
+  18. Pagination
+
+- Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
+<p align-items: center>
+      <img src='ReadMe-IMAGES/18.png' width='200'>
   </p>

@@ -137,14 +137,17 @@
 
 17. Stripe-submenus
 
-- Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
-    <p align-items: center>
+- Inspiration: https://strapi.io
+- When we hover over the navbar links, we display dynamic sublinks. Position of the sublinks is set depending on the link position. Sublinks container changes size depending on number of sublinks
+- Responsive design
+<p align-items: center>
       <img src='ReadMe-IMAGES/17.png' width='200'>
-  </p>
+</p>
 
 18. Pagination
 
-- Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
+- Fetching github followers and set up pagination, so that 10 people are displayed per page. Dynamically changing the number of displayed people. Working with modules.
+- Prev and next page buttons
 <p align-items: center>
       <img src='ReadMe-IMAGES/18.png' width='200'>
   </p>

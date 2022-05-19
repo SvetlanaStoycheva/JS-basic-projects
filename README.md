@@ -119,7 +119,33 @@
     <img src='ReadMe-IMAGES/14.png' width='200'>
 </p>
 
-15. Slider
+15. Numbers
+
+- Count Up animation: when the page loads three counters begin to count until they reach a specific value
+
+<p align-items: center>
+    <img src='ReadMe-IMAGES/19.png' width='200'>
+</p>
+
+16. Dark/Light mode
+
+- Page with list of articles and toggle functionality between light/dark mode. The data are in data.js file.
+- We will iterate over data and render it on the screen (using ES6)
+- We will use a labrary Moments.js to format our dates; Using https://cdnjs.com
+
+<p align-items: center>
+    <img src='ReadMe-IMAGES/20.png' width='200'>
+</p>
+
+17. Filters
+
+- Page with list of products and two filter options, input text filter and a button filter.
+
+<p align-items: center>
+    <img src='ReadMe-IMAGES/21.png' width='200'>
+</p>
+
+18. Slider
 
 - Simple slider with prev/next buttons. Buttons hide when we don't have more slides to the link (next btn) or the right (prev btn)
 
@@ -127,7 +153,7 @@
       <img src='ReadMe-IMAGES/15.png' width='200'>
   </p>
 
-16. ES6 - Slider
+19. ES6 - Slider
 
 - Slider functionality with prev/next button
 
@@ -135,7 +161,7 @@
       <img src='ReadMe-IMAGES/16.png' width='200'>
   </p>
 
-17. Stripe-submenus
+20. Stripe-submenus
 
 - Inspiration: https://strapi.io
 - When we hover over the navbar links, we display dynamic sublinks. Position of the sublinks is set depending on the link position. Sublinks container changes size depending on number of sublinks
@@ -144,7 +170,7 @@
       <img src='ReadMe-IMAGES/17.png' width='200'>
 </p>
 
-18. Pagination
+21. Pagination
 
 - Fetching github followers and set up pagination, so that 10 people are displayed per page. Dynamically changing the number of displayed people. Working with modules.
 - Prev and next page buttons

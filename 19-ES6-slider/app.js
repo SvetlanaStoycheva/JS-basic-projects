@@ -44,26 +44,26 @@ const startSlider = (type) => {
     next = container.firstElementChild;
   }
 
-  active.classList.remove(['active']);
-  last.classList.remove(['last']);
-  next.classList.remove(['next']);
+  active.classList.remove('active');
+  last.classList.remove('last');
+  next.classList.remove('next');
 
   if (type === 'prev') {
     active.classList.add('next');
     last.classList.add('active');
     next = last.previousElementSibling;
 
-    next.classList.add('last');
     if (!next) {
       next = container.lastElementChild;
     }
-    next.classList.remove(['next']);
+    next.classList.remove('next');
+    next.classList.add('last');
     return;
   }
 
-  active.classList.add(['last']);
-  last.classList.add(['naxt']);
-  next.classList.add(['active']);
+  active.classList.add('last');
+  last.classList.add('naxt');
+  next.classList.add('active');
 };
 
 nextBtn.addEventListener('click', () => {

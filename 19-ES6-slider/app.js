@@ -5,27 +5,29 @@ const nextBtn = document.querySelector('.next-btn');
 const prevBtn = document.querySelector('.prev-btn');
 
 container.innerHTML = people
-  .map((person, index) => {
-    //   console.table(person);
-    const { img, name, job, text } = person;
+  .map((p, index) => {
+    const { name, job, text, img } = p;
+
+    //we use three different classes: active, next and last, to position the slides
     let position = 'next';
     if (index === 0) {
       position = 'active';
-    } else if (index === people.length - 1) {
+    }
+    if (index === people.length - 1) {
       position = 'last';
     }
+
     return `
   <article class="slide ${position}">
           <img
+            src="${img}"
+            alt="${name}"
             class="img"
-            src=${img}
-            alt=${name}
           />
           <h4>${name}</h4>
-          <p class=${job}>product designer</p>
-          <p class=${text}>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem sed
-            a molestiae ipsam qui soluta non reprehenderit est officiis eum?
+          <p class="title">${job}</p>
+          <p class="text">
+            ${text}
           </p>
           <div class="quote-icon">
             <div class="fas fa-quote-right"></div>
@@ -35,24 +37,26 @@ container.innerHTML = people
   })
   .join('');
 
-// const slides = [...document.querySelectorAll('.slide')];
+//Slider functionality
+//select the current active, next and last slider, remove from them their current classes; because the slide article has miltiple clases, so it is an array, we need to use remove[]; add the new classes;
 const startSlider = (type) => {
   const active = document.querySelector('.active');
   const last = document.querySelector('.last');
   let next = active.nextElementSibling;
+  //when we reach the end of the array
   if (!next) {
     next = container.firstElementChild;
   }
 
-  active.classList.remove('active');
-  last.classList.remove('last');
-  next.classList.remove('next');
+  active.classList.remove(['active']);
+  next.classList.remove(['next']);
+  last.classList.remove(['last']);
 
+  //when we click prev btn
   if (type === 'prev') {
     active.classList.add('next');
     last.classList.add('active');
     next = last.previousElementSibling;
-
     if (!next) {
       next = container.lastElementChild;
     }
@@ -62,8 +66,8 @@ const startSlider = (type) => {
   }
 
   active.classList.add('last');
-  last.classList.add('naxt');
   next.classList.add('active');
+  last.classList.add('next');
 };
 
 nextBtn.addEventListener('click', () => {

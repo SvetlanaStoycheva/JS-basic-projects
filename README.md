@@ -169,11 +169,3 @@
 <p align-items: center>
       <img src='ReadMe-IMAGES/17.png' width='200'>
 </p>
-
-21. Pagination
-
-- Fetching github followers and set up pagination, so that 10 people are displayed per page. Dynamically changing the number of displayed people. Working with modules.
-- Prev and next page buttons
-<p align-items: center>
-      <img src='ReadMe-IMAGES/18.png' width='200'>
-  </p>
